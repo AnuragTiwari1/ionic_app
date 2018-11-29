@@ -13,17 +13,15 @@ import { IonicPage, NavController, NavParams } from 'ionic-angular';
   selector: 'page-op',
   templateUrl: 'op.html',
 })
-export class OpPage {
+export default class OpPage {
 
   constructor(public navCtrl: NavController, public navParams: NavParams) {
   }
 
   ionViewDidLoad() {
-    console.log('ionViewDidLoad OpPage');
   }
 
-  sayHello(){
-    console.log("say hello from op Page");
+  openModal(){
+    console.log("filter clicked");
   }
-
 }
