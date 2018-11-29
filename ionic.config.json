@@ -1,5 +1,7 @@
 {
   "name": "fiat_am",
-  "integrations": {},
+  "integrations": {
+    "cordova": {}
+  },
   "type": "ionic-angular"
 }
